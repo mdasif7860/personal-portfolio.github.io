@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My portfolio</title>
+  <!-- Bootstrap CSS link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <!-- CSS link -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap icon link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="portfolio2.png" class="round" style="width: 50px;" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex text-white sticky" role="search">
+
+          <h4> <i class="bi bi-facebook px-3 "> <span
+                class="position-absolute top-3 start-70 translate-middle p-1 bg-primary border border-light rounded-circle"></span></i>
+          </h4>
+          <h4> <i class="bi bi-linkedin px-3"></i></h4>
+          <h4><i class="bi bi-github px-3"></i></h4>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Card -->
+  <div class="container-fluid" id="main-container">
+    <div class="row justify-content-evenly align-items-center pt-5 pb-5" id="first_row">
+      <div class="col-md-5 mt-2 text-white">
+        <h1 class="display-6">About me</h1>
+        <p>Hii my self asif i am a student of a tier 3 college before some days i was learning html css and i right now
+          i know html css and javaScript i know javaScript only 20% right now i am learning Bootstrap with the help of
+          Bootstrap i created this website with lot of diffculties basically Bootstrap is a framework of html css and
+          javaScript this is liitle information about me and sorry for my ugly english.. </p>
+      </div>
+      <div class="col-md-5 mt-2">
+        <img src="images/asif2.jpg" id="asifimg" class="img-fluid" alt="">
+      </div>
+    </div>
+
+    <!-- Cards and images -->
+    <div class="row justify-content-evenly pb-3">
+      <div class="col-md-3 pt-3">
+        <div class="card" style="width: 18rem;">
+          <img src="images/image1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Full stack Development</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-danger">Web Development</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pt-3">
+        <div class="card" style="width: 18rem;">
+          <img src="images/image2.jpg" class="card-img-top" id="image2" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">JavaScript</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-warning text-white">JavaScript</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pt-3">
+        <div class="card" style="width: 18rem;">
+          <img src="images/image3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cyber Security</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-success">Cyber Security</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact form -->
+    <div class="row justify-content-evenly align-items-center" id="contact_form">
+      <div class="col-md-5 text-white">
+        <form>
+          <h3 class="display-6 text-center pb-3">Contact Form</h3>
+          <div class="mb-3">
+            <label for="exampleInputname" class="form-label">Full Name</label>
+            <input type="email" class="form-control" id="exampleInputname" aria-describedby="nameHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-danger">Submit</button>
+        </form>
+      </div>
+      <div class="col-md-5 pt-4">
+        <img src="images/hacker.webp" class="img-fluid" id="hackerimage" alt="">
+      </div>
+    </div>
+
+    <!-- Pricing -->
+    <main>
+      <h1 class="text-white text-center display-6 pt-5 ">Affordable pricing</h1>
+      <div class="row row-cols-1 row-cols-md-3  pb-4 pt-5 justify-content-evenly">
+        <div class="col-md-3">
+          <div class="card mb-4 rounded-3 shadow-sm border-danger">
+            <div class="card-header py-3 border-danger bg-danger">
+              <h4 class="my-0 fw-normal text-white">Full Stack</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$20<small class="text-muted fw-light">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Mentor Support</li>
+                <li>MCQ Daily</li>
+                <li>Daily live classes</li>
+                <li>Scholarship</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg bg-danger text-white">Get Started</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card mb-4 rounded-3 shadow-sm border-warning">
+            <div class="card-header py-3 bg-warning border-warning">
+              <h4 class="my-0 fw-normal text-white">JavaScript</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$50<small class="text-muted fw-light">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Basic to advance</li>
+                <li>Mentor support</li>
+                <li>Job gurantee</li>
+                <li>Supportive team</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-warning text-white" id="javascript">Get started</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card mb-4 rounded-3 shadow-sm border-success">
+            <div class="card-header py-3 text-white bg-success border-success">
+              <h4 class="my-0 fw-normal">Cyber Security</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Basic to advance</li>
+                <li>Mentor support</li>
+                <li>Job gurantee</li>
+                <li>Supportive team</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-success">Get Started</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </main>
+
+<!-- FAQ -->
+<div class="row justify-content-evenly pt-5 pb-5" id="faq">
+  <div class="col-md-10">
+    <h3 class="text-center text-white pb-3">FAQ</h3>
+
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            What is Full Stack Web Development?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Full Stack Web Development</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, maiores odit officia sit deleniti odio molestiae asperiores cumque quidem autem voluptatem eos vitae ex fugiat, dolorem optio recusandae, harum distinctio!Lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet quos sapiente, odit sit perspiciatis fugiat fugit. Aliquid est in quam eius eligendi suscipit cumque ex quisquam. Suscipit excepturi laborum exercitationem!
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Our JavaScript Development course
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>JavaScript Development</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam ratione suscipit quaerat aliquam eaque, possimus omnis nostrum cupiditate expedita, hic pariatur, architecto delectus ullam perspiciatis voluptatum? Unde eligendi aperiam atque?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsam dolorum tempore enim autem voluptatibus sequi id inventore dicta itaque harum dignissimos unde officiis, corporis ducimus quibusdam necessitatibus accusamus facilis?
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+           Cyber security
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Full Stack Web Development</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aperiam, dolor nesciunt, incidunt adipisci sed non nostrum fuga obcaecati fugiat perspiciatis corrupti? Cupiditate sed officiis facilis aspernatur at officia vero! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem et asperiores, saepe, excepturi nam commodi qui optio enim tempora ullam non ducimus adipisci beatae eos consequatur quibusdam distinctio officia! Aspernatur?
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer text-white">
+<div class="container">
+  <footer class="pb-2 pt-5">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5></h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0"
+            id="last_footer">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0"
+            id="last_footer">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0"
+            id="last_footer">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0"
+            id="last_footer">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0"
+            id="last_footer">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5></h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0"
+            id="last_footer">Full Stack Development</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0"
+            id="last_footer">JavaScript</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0"
+            id="last_footer">Cyber Security</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0"
+            id="last_footer">Web Designing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0"
+            id="last_footer">Graphic Designing</a></li>
+        </ul>
+      </div>
+
+      <!-- <div class="col-6 col-md-2 mb-3">
+        <h5></h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+        </ul>
+      </div> -->
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5>Join our free courses</h5>
+          <p>Our prices is very low as comparison to other platforms</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-danger" type="button">joinUs</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>© 2022 Let's Code, Inc. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <h4><i class="bi bi-twitter text-primary px-2"></i></h4>
+        <h4><i class="bi bi-instagram text-danger px-2"></i></h4>
+        <h4><i class="bi bi-facebook text-primary px-2"></i></h4>
+      </ul>
+    </div>
+  </footer>
+</div>
+</div>
+  <!-- End container fluid -->
+</div>
+
+  <!-- Bootstrap JavaScript link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

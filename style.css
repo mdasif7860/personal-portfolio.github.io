@@ -1,0 +1,70 @@
+body{
+    overflow-x: hidden;
+}
+.d-flex{
+    cursor: pointer;
+    padding: 0px 10px 0px 0px;
+}
+.nav-link{
+    color: #ffff;
+}
+.nav-link:hover{
+    padding: 6px;
+}
+.navbar{
+    background-color: rgb(4, 53, 59);
+}
+.round{
+    border-radius: 50%;
+}
+#main-container{
+    background-color: rgb(3, 45, 51);
+}
+#asifimg{
+    box-shadow: 3px 5px 6px #1d8a80;
+}
+#image2{
+    height: 158px;
+}
+#contact_form{
+    background-color: rgb(6, 52, 58);
+    margin-top: 40px;
+    padding-top: 45px;
+    padding-bottom: 30px;
+}
+#hackerimage{
+    box-shadow: 3px 5px 6px #1d8a80;
+}
+#faq{
+    background-color: rgb(6, 52, 58);
+}
+.footer{
+    background-color: rgb(3, 45, 51);
+}
+#last_footer:hover{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
